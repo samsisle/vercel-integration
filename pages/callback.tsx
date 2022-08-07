@@ -6,8 +6,6 @@ import styles from '@styles/Home.module.css';
 const Callback: NextPage = () => {
   const router = useRouter();
 
-  console.log('[test] router =', router);
-
   return (
     <Layout>
       <h1 className={styles.title}>Vercel Integration: Callback Page</h1>
@@ -15,10 +13,10 @@ const Callback: NextPage = () => {
         This example Vercel Integration tests Webhooks.
       </p>
       <div className={styles.grid}>
-        <div className={styles.card} onClick={() => {}}>
-          <h2>Redirect</h2>
-          <p>Redirect me back to Vercel.</p>
-        </div>
+        <a href={`${router.query.next}`} className={styles.card}>
+          <h2>Link to Repo &rarr;</h2>
+          <p>Link to the source code for this Vercel Integration.</p>
+        </a>
       </div>
     </Layout>
   );

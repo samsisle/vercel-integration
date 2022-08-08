@@ -26,7 +26,7 @@ We are simply console logging the `body.payload` in `/api/webhook` to easily see
 
 6. Set the `CLIENT_SECRET`, the value you see in the integration console if you edit your integration, to your integration project's [**Environment Variables**](https://vercel.com/docs/concepts/projects/environment-variables) settings.
 
-7. Your integration is ready to be installed to any existing Vercel project. To install your newly created integration, go to this URL (External Flow) → `https://vercel.com/integrations/:slug/new` (https://vercel.com/docs/integrations/install-integration#external). It should redirect to the Callback page. On the Callback page, click on the card to redirect back to Vercel.
+7. Your integration is ready to be installed to any existing Vercel project. To install your newly created integration, go to this URL (External Flow) → `https://vercel.com/integrations/:slug/new` (https://vercel.com/docs/integrations/install-integration#external). Select any existing project. It should redirect you to the Callback page. On the Callback page, click on the card to redirect back to Vercel.
 
 8. Once successfully installed, which you can verify was successful by going to your existing project's **Integration** settings (e.g. `https://vercel.com/<account_slug>/<project_slug>/settings/integrations`), try triggering your Webhook. For example, if you have selected **deployment_ready**, try triggering a new Deployment (existing project) and make sure to have another browser tab open to your integration project's [Function Logs](https://vercel.com/docs/concepts/deployments/logs#function-logs).
 

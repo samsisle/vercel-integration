@@ -24,7 +24,7 @@ To easily see the Webhook in action, we are simply console logging the `body.pay
 
 5. Set any remaining required inputs until you are able to successfully create your integration.
 
-6. Set the `CLIENT_SECRET`, the value you see in the integration console if you edit your integration, to your project's [**Environment Variables**](https://vercel.com/docs/concepts/projects/environment-variables) settings.
+6. Set the `CLIENT_SECRET`, the value you see in the integration console if you edit your integration, to your integration project's [**Environment Variables**](https://vercel.com/docs/concepts/projects/environment-variables) settings.
 
 7. Your integration is ready to be installed to any existing Vercel project. To install your newly created integration, go to this URL (External Flow) → `https://vercel.com/integrations/:slug/new` (https://vercel.com/docs/integrations/install-integration#external). It should redirect to the Callback page. On the Callback page, click on the card to redirect back to Vercel.
 

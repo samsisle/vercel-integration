@@ -36,4 +36,4 @@ The screenshot below is was taken in the Function logs of the integration projec
 
 ## Other helpful repositories
 
-- https://github.com/vercel/example-integration
+- This example respository (https://github.com/vercel/example-integration) is the main source of inspiration for this repository.

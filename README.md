@@ -12,7 +12,7 @@ To easily a Webhook in action, we are simply console logging the `body.payload` 
 
 ## How to set up and run this integration
 
-1. Fork this repository and deploy to Vercel.
+1. Fork this repository and deploy to Vercel. This repository serves as the integration project.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/samsisle/vercel-integration)
 

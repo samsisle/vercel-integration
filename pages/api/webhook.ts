@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { requireEnv } from '@utils/requireEnv'
+import { requireEnv } from '@utils/require-env'
 import { verifyWebhookSignature } from '@utils/verify-webhook-signature'
 
 const clientSecret = requireEnv('CLIENT_SECRET')

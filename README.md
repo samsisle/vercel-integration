@@ -1,4 +1,4 @@
-# Vercel Integration
+# Vercel Integration (+Webhooks)
 
 This Next.js app serves as the UI for a bare minimal [Vercel Integration](https://vercel.com/docs/integrations) that utilizes [Webhooks](https://vercel.com/docs/integrations/webhooks-overview).
 

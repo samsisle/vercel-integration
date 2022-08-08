@@ -2,7 +2,7 @@
 
 This Next.js app serves as the UI + API for a bare minimal [Vercel Integration](https://vercel.com/docs/integrations) that utilizes [Webhooks](https://vercel.com/docs/integrations/webhooks-overview).
 
-To easily see the Webhook in action, we are simply console logging the `body.payload` in `/api/webhook`.
+We are simply console logging the `body.payload` in `/api/webhook` to easily see the Webhook in action.
 
 ## Important requirements to mention
 

@@ -8,7 +8,7 @@ To show a simple Webhook in action, we are console logging the `body.payload` in
 
 - The [Callback page](https://github.com/samsisle/vercel-integration/blob/main/pages/callback.tsx) is important so that you can redirect back to Vercel and finish the integration installation process. The `router.query.next` is essentially the correct Redirect URL that you need to go to in order to finish installing the integration on a Vercel project.
 - The [Webhook API Route](https://github.com/samsisle/vercel-integration/blob/main/pages/api/webhook.ts) is important so Vercel can make a HTTP POST request with a JSON payload for each event. The [`verifyWebhookSignature`](https://github.com/samsisle/vercel-integration/blob/main/utils/verify-webhook-signature.ts) function is important so that only Vercel can make a POST request to your Webhook.
-- This Vercel Integration is essentially a Next.js project + an API route. This is separate from the Vercel project you intend to use the integration with.˝˝
+- This Vercel Integration is essentially a Next.js project + an API route. This is separate from the Vercel project you intend to use the integration with.
 
 ## How to set up and run this integration
 

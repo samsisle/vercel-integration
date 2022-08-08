@@ -4,7 +4,7 @@ This Next.js app serves as the UI for a bare minimal [Vercel Integration](https:
 
 To show a simple Webhook in action, we are console logging the `body.payload` in `/api/webhook`.
 
-I have configured the [**deployment_ready**](https://vercel.com/docs/webhooks#introduction/supported-event-types/deployment-ready) [Event Type](https://vercel.com/docs/webhooks#introduction/supported-event-types).˝
+I have configured the [**deployment_ready**](https://vercel.com/docs/webhooks#introduction/supported-event-types/deployment-ready) [event](https://vercel.com/docs/webhooks#introduction/supported-event-types) in the screenshot below. The screenshot was taken in the [Function Logs](https://vercel.com/docs/concepts/deployments/logs#function-logs) of the Vercel Project that added the created integration.
 
 ![webhook_function_log](https://integration.msisle.im/webhook_function_log.jpg)
 

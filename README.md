@@ -30,9 +30,10 @@ To easily a Webhook in action, we are simply console logging the `body.payload` 
 
 7. Once successfully installed, which you can verify was successful by going to your existing project's **Integration** settings (e.g. `https://vercel.com/<account_slug>/<project_slug>/settings/integrations`), try triggering your Webhook. For example, if you have selected **deployment_ready**, try triggering a new Deployment (existing project) and make sure to have another browser tab open to your integration project's [Function Logs](https://vercel.com/docs/concepts/deployments/logs#function-logs).
 
-The screenshot below is was taken in the Function logs of the integration project.
+The screenshot below is was taken in the Function logs of the integration project. It is outputting the `body.payload` from the **deployment_ready** event.
 
 ![webhook_function_log](https://integration.msisle.im/webhook_function_log.jpg)
 
 ## Other helpful repositories
+
 - https://github.com/vercel/example-integration

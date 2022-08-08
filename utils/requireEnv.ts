@@ -1,10 +1,10 @@
 export function requireEnv(name: string): string {
-  const value = process.env[name];
+  const value = process.env[name]
 
   if (!value)
     throw new Error(
       `Environment variable ${name} is required but not provided.`
-    );
+    )
 
-  return value;
+  return value
 }

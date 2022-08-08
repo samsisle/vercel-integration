@@ -19,5 +19,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     return res.status(200).send('Received.')
   }
 
-  return res.status(200).send('Received.')
+  return res
+    .status(405)
+    .send('Request method not allowed. Please use a POST request.')
 }

@@ -1,6 +1,6 @@
 # Vercel Integration
 
-This Next.js app serves as the UI for a bare minimal (Vercel Integration)[https://vercel.com/docs/integrations] that utilizes (Webhooks)[https://vercel.com/docs/integrations/webhooks-overview].
+This Next.js app serves as the UI for a bare minimal [Vercel Integration](https://vercel.com/docs/integrations) that utilizes [Webhooks](https://vercel.com/docs/integrations/webhooks-overview).
 
 To show a simple Webhook in action, we are console logging the `body.payload` in `/api/webhook`.
 
@@ -18,6 +18,6 @@ To show a simple Webhook in action, we are console logging the `body.payload` in
 
 4. Set any remaining required inputs until you are able to successfully create your Vercel Integration.
 
-5. Set the `CLIENT_SECRET`, the value you see in the integration console if you edit your integration, to your project's (**Environment Variables**)[https://vercel.com/docs/concepts/projects/environment-variables] settings.
+5. Set the `CLIENT_SECRET`, the value you see in the integration console if you edit your integration, to your project's [**Environment Variables**](https://vercel.com/docs/concepts/projects/environment-variables) settings.
 
 6. Your integration is ready to be installed to any Vercel project. To install your newly created integration, go to this URL → `https://vercel.com/integrations/:slug/new` (https://vercel.com/docs/integrations/install-integration#external).
